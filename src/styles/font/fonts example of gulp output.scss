@@ -1,0 +1,12 @@
+@include font('Pacifico', '400', 'normal', 'Pacifico');
+@include font('Quicksand', '300', 'normal', 'Quicksand 300');
+@include font('Quicksand', '300', 'italic', 'Quicksand 300 Italic');
+@include font('Quicksand', '400', 'normal', 'Quicksand 400');
+@include font('Quicksand', '400', 'italic', 'Quicksand 400 Italic');
+@include font('Quicksand', '700', 'normal', 'Quicksand 700');
+@include font('Quicksand', '700', 'italic', 'Quicksand 700 Italic');
+
+// template: @include font(font-family, ***file name***, font-weight, font-style)
+// don't modify ***file name*** !!!
+// function fontsStyle works just when this file is empty
+// This function read font files(.woff & .woff2) from 'path.build.fonts'
